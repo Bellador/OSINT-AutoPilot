@@ -1,4 +1,11 @@
-# OSINT-AutoPilot
+        ____   _____ _____ _   _ _______                 _        _____ _ _       _   
+       / __ \ / ____|_   _| \ | |__   __|     /\        | |      |  __ (_) |     | |  
+      | |  | | (___   | | |  \| |  | |       /  \  _   _| |_ ___ | |__) || | ___ | |_  
+      | |  | |\___ \  | | | .   |  | |      / /\ \| | | | __/ _ \|  ___/ | |/ _ \| __|
+      | |__| |____) |_| |_| |\  |  | |     / ____ \ |_| | || (_) | |   | | | (_) | |_ 
+       \____/|_____/|_____|_| \_|  |_|    /_/    \_\__,_|\__\___/|_|   |_|_|\___/ \__|
+                                                                                 
+                                                                                 
 __AutoPilot__ combines your favourite OSINT tools in one script to ease the process while bundling all results in a neat project structure.
 Currently the following steps are covered:
 
