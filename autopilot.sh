@@ -1,12 +1,6 @@
 #!/bin/bash
+# Script to automate common recon steps
 
-# Should automate the common recon steps:
-# 1. Subdomain enumeration (amass) -> Using a recurisve approach: First use target.txt file for first subdomains, secondly query amass again with the found subdomains (variable iterations)
-# 2. Checking for live hosts (httprobe)
-# 3. Creating Screenshots (eyewitness, screenshot.py)
-# 4. Scan targets (nmap)
-# 5. Bruteforce directories (wfuzz)
-# 6. Find js, json, php enpoints (JSParser) - maybe
 echo "  ____   _____ _____ _   _ _______                 _        _____ _ _       _   "
 echo " / __ \ / ____|_   _| \ | |__   __|     /\        | |      |  __ (_) |     | |  "
 echo "| |  | | (___   | | |  \| |  | |       /  \  _   _| |_ ___ | |__) || | ___ | |_ " 
@@ -94,10 +88,6 @@ do
    	sudo python3 ~/tools/Photon/photon.py -u ${line} -l 3 -o ${subdomain_dir_path} --wayback --keys
 	((counter++))
 done
-
-# 5. Nmap
-
-# 6. Directory Bruteforce
 
 echo "---------------------------------------"
 echo "[*] OSINT AutoPilot done. Results can be found at ${project_path}" 
