@@ -22,3 +22,10 @@ Feel free to fork and extend! e.g.
 <ul>
   <li>Content discovery - <a href="https://github.com/ffuf/ffuf"><b>ffuf</b> @ffuf</a></li>
   <li>Service scanning - <a href="https://github.com/nmap/nmap"><b>nmap</b> @nmap</a></li>
+  <li>XSS scanning - <a href="https://github.com/s0md3v/XSStrike"><b>XSStrike</b> @s0md3v</a></li>
+</ul>
+
+#Setup
+1. Projects will be stored at your home directory by default, change `project_hub_path` variable to change this
+2. Install recon tools mentioned above
+3. The script searches for the tools under `~/tools`, change if necessary or add to $PATH
