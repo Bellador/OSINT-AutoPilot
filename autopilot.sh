@@ -39,8 +39,8 @@ echo "[?] Enter absolute path to target list: "
 read targets_path
 
 echo "[*] Updating system and needed tools..."
-#sudo apt-get -y update && sudo apt-get -y upgrade
-#python3 ~/tools/Photon/photon.py --update
+sudo apt-get -y update && sudo apt-get -y upgrade
+python3 ~/tools/Photon/photon.py --update
 
 echo "---------------------------------------"
 echo "1. Amass for subdomain enumeration..."
