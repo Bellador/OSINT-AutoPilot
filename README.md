@@ -25,7 +25,7 @@ Feel free to fork and extend to your own needs! e.g.
   <li>XSS scanning - <a href="https://github.com/s0md3v/XSStrike"><b>XSStrike</b> @s0md3v</a></li>
 </ul>
 
-#Setup
+#### Setup
 1. Install recon tools mentioned above
 2. The script searches for the tools under `~/tools`, change if necessary or add to $PATH
 3. Projects will be stored at your home directory by default, change `project_hub_path` variable to change this
