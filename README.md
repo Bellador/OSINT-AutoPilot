@@ -17,7 +17,7 @@ Currently the following steps are covered:
   <li>Crawl targets to find endpoints, keys - <a href="https://github.com/s0md3v/Photon"><b>Photon</b> @s0md3v</a></li>
 </ol>
 
-Feel free to fork and extend! e.g.
+Feel free to fork and extend to your own needs! e.g.
 
 <ul>
   <li>Content discovery - <a href="https://github.com/ffuf/ffuf"><b>ffuf</b> @ffuf</a></li>
@@ -26,6 +26,6 @@ Feel free to fork and extend! e.g.
 </ul>
 
 #Setup
-1. Projects will be stored at your home directory by default, change `project_hub_path` variable to change this
-2. Install recon tools mentioned above
-3. The script searches for the tools under `~/tools`, change if necessary or add to $PATH
+1. Install recon tools mentioned above
+2. The script searches for the tools under `~/tools`, change if necessary or add to $PATH
+3. Projects will be stored at your home directory by default, change `project_hub_path` variable to change this
