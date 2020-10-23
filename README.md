@@ -13,7 +13,7 @@ Currently the following steps are covered:
  <ol>
   <li>Subdomain enumeration - <a href="https://github.com/OWASP/Amass"><b>Amass</b> @OWASP</a></li>
   <li>Check for live targets - <a href="https://github.com/tomnomnom/httprobe"><b>httprobe</b> @tomnomnom</a></li>
-  <li>Take webscreenshots - <a href="https://github.com/michenriksen/aquatone"><b>aquatone</b> @michenriksen </a></li>
+  <li>Take webscreenshots, grab html - <a href="https://github.com/michenriksen/aquatone"><b>aquatone</b> @michenriksen </a></li>
   <li>Crawl targets to find endpoints, keys - <a href="https://github.com/s0md3v/Photon"><b>Photon</b> @s0md3v</a></li>
 </ol>
 
