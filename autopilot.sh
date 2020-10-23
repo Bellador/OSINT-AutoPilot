@@ -13,9 +13,15 @@ echo "powered by github.com/Bellador"
 # get project name from user
 echo "[?] Enter the project name: "  
 read project_name
-project_path=~/projects/${project_name}
-
-# check if project directory exists already
+project_hub_path=~/projects
+project_path=${project_hub_path}/${project_name}
+# check if projects directory exsits
+if [[ ! -d ${project_hub_path} ]]; then
+	# create new project folder
+	echo "[*] Creating project HUB folder at ${project_hub_path}"
+	mkdir ${project_hub_path}
+fi
+# check if project_name directory exists already
 if [[ ! -d ${project_path} ]]; then
 	# create new project folder
 	echo "[*] Creating new project folder at ${project_path}"
