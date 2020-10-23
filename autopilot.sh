@@ -34,7 +34,6 @@ else
 		exit 1
 	fi
 fi
-
 # get target list from user
 echo "[?] Enter absolute path to target list: "  
 read targets_path
